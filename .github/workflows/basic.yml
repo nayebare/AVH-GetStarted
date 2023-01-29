@@ -18,6 +18,8 @@ name: Arm Virtual Hardware basic example
 on:
   push:
     branches: [ main ]
+permissions: 
+  contents: write
   pull_request:
     paths:
       - .github/workflows/basic.yml
