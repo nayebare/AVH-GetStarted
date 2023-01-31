@@ -115,8 +115,8 @@ jobs:
     - name: Configure AWS Credentials
       uses: aws-actions/configure-aws-credentials@v1
       with:
-        role-to-assume: arn:aws:iam::591965975549:user/arm-virtual-hardware-user
-        aws-region: us-east-1
+        role-to-assume: arn:aws:iam::720528183931:role/Proj-vht-assume-role
+        aws-region: eu-west-1
 
     - name: Run tests
       id: avh
